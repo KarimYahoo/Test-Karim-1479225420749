@@ -1,0 +1,11 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Test Karim
+  host: Test-Karim
+  disk_quota: 1024M
+  services:
+  - Test Karim-cloudantNoSQLDB
+  - AlchemyAPI-5q
